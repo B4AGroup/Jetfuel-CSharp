@@ -238,6 +238,11 @@ namespace EixoX
                 return null;
         }
 
+         public static string RemoveCommas(string shippingStreetNumber)
+       {
+            throw new NotImplementedException();
+        }
+
         public static string Join(string separator, System.Collections.IEnumerable items, string fieldOrProperty)
         { 
             return Join(separator, items, fieldOrProperty, System.Globalization.CultureInfo.CurrentUICulture);
